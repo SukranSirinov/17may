@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 800px;
+  height: 700px;
+}
+
+.container .top-box {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+.container .top-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .top-box .left {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.container .top-box .left:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.container .top-box .left i {
+  font-size: 30px;
+}
+
+.container .top-box .right {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.container .top-box .right:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.container .top-box .right i {
+  font-size: 30px;
+}
+
+ol,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bottom-box {
+  width: 100%;
+  height: 150px;
+}
+
+.bottom-box ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: scroll;
+}
+
+.bottom-box ul li {
+  width: 120px !important;
+  height: 100px;
+  margin: 0px 10px;
+  border: 3px solid black;
+}
+
+.bottom-box ul li img {
+  width: 120px !important;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
